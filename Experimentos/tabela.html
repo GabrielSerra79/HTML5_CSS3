@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px;
+      }
+
+      table caption {
+        font-size: large;
+        font-style: italic;
+        margin-bottom: 5px;
+      }
+
+      table th,
+      table td {
+        border: 1px solid #ccc;
+        padding: 5px;
+        text-align: left;
+      }
+
+      table th,
+      tfoot td {
+        background: #ddd;
+      }
+
+      tfoot td {
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .responsive-table {
+        max-width: 100%;
+        overflow-x: auto;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <table>
+      <caption>
+        Caption.
+      </caption>
+      <thead>
+        <tr>
+          <th>Th 1</th>
+          <th>Th 2</th>
+          <th>Th 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Td 1a</td>
+          <td>Td 2a</td>
+          <td>Td 3a</td>
+        </tr>
+        <tr>
+          <td colspan="2">Td Colspan="2"</td>
+          <td>Td 3b</td>
+        </tr>
+        <tr>
+          <td>Td 1c</td>
+          <td>Td 2c</td>
+          <td>Td 3c</td>
+        </tr>
+        <tr>
+          <td colspan="3">Td Colspan="3"</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Td 1</td>
+          <td>Td 2</td>
+          <td>Td 3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div class="responsive-table">
+      <table>
+        <caption>
+          Caption 2.
+        </caption>
+        <thead>
+          <tr>
+            <th>Th 1</th>
+            <th>Th 2</th>
+            <th>Th 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Td 1a</td>
+            <td>Td 2a</td>
+            <td>Td 3a</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Td Rowspan="2"</td>
+            <td>Td 2b</td>
+            <td>Td 3b</td>
+          </tr>
+          <tr>
+            <td>Td 2c</td>
+            <td>Td 3c</td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="2">Td Colspan="2" Rowspan="2"</td>
+            <td>Td 3d</td>
+          </tr>
+          <tr>
+            <td>Td 3e</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Td 1</td>
+            <td>Td 2</td>
+            <td>Td 3</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      label {
+        cursor: pointer;
+        /* display: block; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Experimento de Forms</h1>
+    <form action="#" method="get" target="_blank">
+      <p>Formulário</p>
+      <p>
+        <label for="nome"> Nome: </label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Seu nome"
+        />
+      </p>
+
+      <p>
+        <label for="dev"> Sou um dev: </label>
+        <input type="checkbox" id="dev" name="dev" value="sim" />
+      </p>
+      <p>
+        <label for="check">Ta check: </label>
+        <input type="checkbox" id="check" name="check" value="sim" checked />
+      </p>
+
+      <p>
+        Radio button: <br />
+        <label for="radio-1">Radio 1</label>
+        <input
+          type="radio"
+          id="radio-1"
+          name="radio"
+          value="rad1"
+          checked
+        /><br />
+        <label for="radio-2">Radio 2</label>
+        <input type="radio" id="radio-2" name="radio" value="rad2" /><br />
+        <label for="radio-3">Radio 3</label>
+        <input type="radio" id="radio-3" name="radio" value="rad3" /><br />
+        <label for="radio-4">Radio 4</label>
+        <input type="radio" id="radio-4" name="radio" value="rad4" /><br />
+      </p>
+
+      <p>
+        <label for="data">Data</label>
+        <input type="date" id="data" name="data" /><br />
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" /><br />
+
+        <label for="data-hora">Data e hora:</label>
+        <input type="datetime-local" id="data-hora" name="data-hora" /><br />
+      </p>
+
+      <p>
+        <label for="cor">Cor preferida:</label>
+        <input type="color" id="cor" name="cor" /><br />
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" /><br />
+      </p>
+
+      <p>
+        <label for="arq">Seu arquivo:</label>
+        <input type="file" id="arq" name="arq" accept=".png,.docx,.pdf" multiple/><br />
+      </p>
+
+      <p>
+        <label for="number">Número:</label>
+        <input type="number" id="number" name="number" placeholder="Número" min="10" max="60" step="5"/><br />
+      </p>
+
+      <p>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Seu senha" /><br />
+      </p>
+
+      <p>
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="10" step="2"/><br />
+      </p>
+
+      <p>
+        <label for="range2">Range 2:</label>
+        <input type="range" id="range2" name="range2" min="0" max="10" list="lista"/><br />
+
+        <datalist id="lista">
+          <option value="0" label="0">
+          <option value="2">
+          <option value="4" label="4">
+          <option value="6">
+          <option value="8">
+          <option value="10" label="10">
+        </datalist>
+      </p>
+
+      <p>
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url" placeholder="Sua URL" /><br />
+      </p>
+
+      <p>
+        <label for="search">Busca:</label>
+        <input type="search" id="search" name="search" placeholder="Busca" /><br />
+      </p>
+
+      <p>
+        <label for="select">Selecione uma opção:</label>
+        <select name="select" id="select">
+          <optgroup label="Grupo 1">
+            <option value="qualquer 1" label="Label 1">
+            <option value="qualquer 2" label="Label 2" disabled>
+            <option value="qualquer 3" label="Label 3" selected>
+            <option value="qualquer 4" label="Label 4">
+          </optgroup>
+          <optgroup label="Grupo 2">
+            <option value="qualquer A" label="Label A">
+            <option value="qualquer B" label="Label B" disabled>
+            <option value="qualquer C" label="Label C">
+            <option value="qualquer D" label="Label D">
+          </optgroup>
+
+        </select>
+      </p>
+
+      <P>
+        <label for="textarea">Textarea:</label>
+        <textarea name="textarea" id="textarea" rows="5" cols="50"></textarea>
+      </P>
+
+
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
