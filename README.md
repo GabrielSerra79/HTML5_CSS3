@@ -7,3 +7,9 @@ Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com pr
 - [Validador de HTML](https://validator.w3.org/)
 
 - [Tags HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements)
+
+- [Como estruturar um formulário HTML](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form)
+
+- [HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
+
+- [Pagina de Exemplo](https://codepen.io/luizomf/pen/KKNwMeG)
