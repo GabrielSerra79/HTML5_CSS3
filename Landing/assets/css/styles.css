@@ -18,9 +18,10 @@
 
 */
 
-:root{
+:root {
   --primary-color: #0a1128;
   --white-color: #fff;
+  --light-grey-color: #eee;
   --gap: 3rem;
 }
 
@@ -73,21 +74,78 @@ h6 {
   font-size: 3rem;
 }
 
-.main-bg {
-  background-image: url('../img/main-bg.svg');
-  background-size: cover;
-  background-position: center center;
-  color: var(--white-color)
-}
-
-.white-bg {
-  background-color: var(--white-color);
+a {
+  text-decoration: none;
 }
 
 .main-content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: var(--gap)
+  padding: var(--gap);
+}
+
+.menu {
+  background-color: var(--white-color);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--light-grey-color);
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* .menu-content h1 {
+  font-size: 2.3rem;
+} */
+
+.menu-content ul {
+  list-style: none;
+  display: flex;
+}
+
+.logo {
+  padding: 1rem;
+}
+
+.menu-content ul li a {
+  display: block;
+  padding: 2rem;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.menu-content ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background: crimson;
+  transition: all 300ms ease-in-out;
+}
+
+.menu-content ul li a:hover::after {
+  width: 50%;
+  left: 25%;
+}
+
+.main-bg {
+  background-image: url("../img/main-bg.svg");
+  background-size: cover;
+  background-position: center center;
+  color: var(--white-color);
+}
+
+.white-bg {
+  background-color: var(--white-color);
 }
 
 .section {
