@@ -13,3 +13,5 @@ Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com pr
 - [HTML Input Types](https://www.w3schools.com/html/html_form_input_types.asp)
 
 - [Pagina de Exemplo](https://codepen.io/luizomf/pen/KKNwMeG)
+
+- [Can i use css](https://caniuse.com/)
