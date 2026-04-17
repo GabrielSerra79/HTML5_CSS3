@@ -38,6 +38,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 2.3rem;
   color: var(--primary-color);
+  line-height: 1.5;
 }
 
 h1,
@@ -79,17 +80,17 @@ a {
 }
 
 .main-content {
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
   padding: var(--gap);
 }
 
 .menu {
-  background-color: var(--white-color);
   position: fixed;
   top: 0;
   width: 100%;
-  border-bottom: 1px solid var(--light-grey-color);
+  border-bottom: 0.1rem solid var(--light-grey-color);
+  z-index: 1;
 }
 
 .menu-content {
@@ -137,6 +138,10 @@ a {
   left: 25%;
 }
 
+.menu-spacing {
+  height: 9.4rem;
+}
+
 .main-bg {
   background-image: url("../img/main-bg.svg");
   background-size: cover;
@@ -150,4 +155,32 @@ a {
 
 .section {
   min-height: 100vh;
+}
+
+.intro-content {
+  position: relative;
+  top: -9.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--gap);
+  height: 100vh;
+}
+
+.intro-text-content,
+.intro-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.intro-content h2 {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.intro-img img {
+  max-width: 100%;
+  height: auto;
 }
