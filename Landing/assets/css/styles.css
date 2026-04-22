@@ -20,14 +20,17 @@
 
 :root {
   --primary-color: #0a1128;
+  --secondary-color: crimson;
   --white-color: #fff;
   --light-grey-color: #eee;
+  --grey-color: #7e7878;
   --gap: 3rem;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -110,7 +113,6 @@ th {
 
 thead tr {
   background-color: var(--light-grey-color);
-
 }
 
 tfoot tr {
@@ -198,7 +200,7 @@ tfoot tr {
 
 .intro-content {
   position: relative;
-  top: -9.4rem;
+  /* top: -9.4rem; */
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
@@ -278,11 +280,91 @@ tfoot tr {
   transition: all 300ms ease-in-out;
 }
 
-.gallery-img img:hover{
-transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+.gallery-img img:hover {
+  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
 }
 
 .responsive-table {
   overflow: hidden;
   overflow-x: auto;
+}
+
+.contact-form {
+  grid-column: span 2;
+}
+
+.form-grid {
+  border: none;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.form-grid legend {
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  flex: 1 1 auto;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  border: none;
+  width: 100%;
+  background-color: var(--white-color);
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 1rem 0.2rem var(--secondary-color);
+}
+
+.form-group textarea {
+  min-height: 30rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.form-group button {
+  border: 0.5rem solid var(--white-color);
+  background: none;
+  color: var(--white-color);
+  padding: 1.5rem 2rem;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+.form-group ::placeholder {
+  color: var(--grey-color);
+}
+
+.footer {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.footer p,
+.footer a {
+  margin: 0;
 }
