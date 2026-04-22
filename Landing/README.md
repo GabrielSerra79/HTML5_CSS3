@@ -15,3 +15,5 @@
 [Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 [Google Fonts](https://fonts.google.com/)
+
+[Lorem Picsum(imagens aleatorias)](https://picsum.photos/)

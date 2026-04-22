@@ -15,3 +15,5 @@ Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com pr
 - [Pagina de Exemplo](https://codepen.io/luizomf/pen/KKNwMeG)
 
 - [Can i use css](https://caniuse.com/)
+
+- [Lorem Picsum(imagens aleatorias)](https://picsum.photos/)
