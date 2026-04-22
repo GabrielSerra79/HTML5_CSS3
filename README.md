@@ -16,4 +16,6 @@ Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com pr
 
 - [Can i use css](https://caniuse.com/)
 
+- [Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
 - [Lorem Picsum(imagens aleatorias)](https://picsum.photos/)
