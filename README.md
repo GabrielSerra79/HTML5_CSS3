@@ -19,3 +19,22 @@ Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com pr
 - [Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
 
 - [Lorem Picsum(imagens aleatorias)](https://picsum.photos/)
+
+## Modulo 21 - Landing Page
+[Github do prof](https://github.com/luizomf/landing-page-cursojs)
+
+[Exemple Silple Landing Page](https://codepen.io/luizomf/full/KKNwMeG)
+
+[SVG Backgrounds](https://www.svgbackgrounds.com/#confetti-doodles)
+
+[Accessibility Checker](https://achecker.ca/)
+
+[HTML Checker](https://validator.w3.org/nu/#textarea)
+
+[unDraw](https://undraw.co/)
+
+[Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
+[Google Fonts](https://fonts.google.com/)
+
+[Lorem Picsum(imagens aleatorias)](https://picsum.photos/)
