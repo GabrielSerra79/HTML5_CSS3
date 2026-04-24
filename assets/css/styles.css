@@ -367,10 +367,14 @@ tfoot tr {
   rotate: -90deg;
   font-size: 5rem;
   font-weight: bold;
-  border: solid 0.1rem ;
+  border: solid 0.1rem;
 }
 
 @media (max-height: 576px) {
+  .section {
+    scroll-margin-top: 0;
+  }
+
   .menu-spacing {
     display: none;
   }
@@ -427,6 +431,14 @@ tfoot tr {
     width: 100%;
   }
 
+  .section {
+    scroll-margin-top: 0;
+  }
+
+  .menu-spacing {
+    display: none;
+  }
+
   .menu {
     height: 100%;
     bottom: 0;
@@ -472,19 +484,9 @@ tfoot tr {
   .close-menu:checked ~ .close-menu-label::after {
     content: "×";
   }
-
-  .menu-spacing {
-    display: none;
-  }
-
-  .section {
-    scroll-margin-top: 0;
-  }
 }
 
 @media (max-height: 575px) and (max-width: 799px) {
-
-
   .logo {
     padding: 0;
   }
