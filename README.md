@@ -1,6 +1,9 @@
 # HTML5 e CSS3
 Repo criado para acompanhar o Curso de Python 3 do básico ao avançado - com projetos reais - UDEMY - Seção 20 / 21 - HTML5 e CSS3
 
+# Pagina no ar em Netlify
+[Landing Page HTML5 CSS3 Curso Python](https://landing-page-html5-css3-curso-python.netlify.app/)
+
 # Referencias
  - [Curso Udemy](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
 
